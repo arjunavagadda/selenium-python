@@ -1,0 +1,69 @@
+# Notes
+
+## python
+
+Variables
+===========
+name = "Ram"           # String
+age = 78               # Integer
+height = 6.2          # Float
+counter = True      # Boolean
+
+Input
+======
+name = input("Enter your name: ")
+print("Hello,", name)  # Hello Jyo
+
+Conditional Statements (if else)
+=====================
+
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+
+loops (for loop)
+===============
+
+for i in range(5):
+    print(i)
+
+Functions (def keyword)
+=========
+def greet(name):
+    print("Hello", name)
+
+greet("rockyy")
+
+
+Lists and Tuples
+===============
+
+Lists :
+
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+print(fruits[1])
+
+Tuple:
+
+colors = ("red", "green", "blue")
+print(colors[0])
+
+
+## Lists are changeable (mutable), tuples are not.
+
+
+Dictionaries :
+
+person = {
+    "name": "Alice",
+    "age": 25
+}
+print(person["name"])
+
+
+## selenium
+
+python install selenium - pip install selenium
+
